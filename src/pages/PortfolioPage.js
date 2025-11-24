@@ -74,6 +74,58 @@ const projects = [
     description: "North Seattle College Events (NSC Events) is a student built website that allows all students to view upcoming events occurring at the college, and for administrators to add and manage event announcements through the website.",
     screenshot: page4
   },
+  {
+    title: 'GeekGirlCon Website Updates',
+    company: 'GeekGirlCon',
+    status: 'In Progress',
+    socialMedia: [
+      {
+        icon: faLink,
+        link: 'https://www.geekgirlcon.com/'
+      },
+    ],
+    description: "Contributed to content and layout updates for the GeekGirlCon website.",
+    screenshot: page4
+  },
+  {
+    title: 'Next Wave Dev Static Website',
+    company: 'Next Wave Dev',
+    status: 'In Progress',
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: 'https://github.com/next-wave-dev-org/nwd-static-website'
+      },
+    ],
+    description: "Worked on the static website for Next Wave Dev, including content and layout.",
+    screenshot: page4
+  },
+  {
+    title: 'Shift App (Expo)',
+    company: 'North Seattle College',
+    status: 'In Development',
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: 'https://github.com/SeattleColleges/shift-app-expo'
+      }
+    ],
+    description: "A mobile scheduling app built using Expo and React Native for practicum development.",
+    screenshot: page4
+  },
+  {
+    title: 'Licton Springs Review (Next.js)',
+    company: 'North Seattle College',
+    status: 'In Development',
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: 'https://github.com/SeattleColleges/licton-springs-review-nextjs'
+      }
+    ],
+    description: "A Next.js web app created for the Licton Springs Review literary magazine.",
+    screenshot: page4
+  },
 ];
 
 const PortfolioPage = () => {
