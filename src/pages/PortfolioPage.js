@@ -75,29 +75,37 @@ const projects = [
     screenshot: page4
   },
   {
-    title: 'GeekGirlCon Website Updates',
+    title: 'GeekGirlCon Mobile App',
     company: 'GeekGirlCon',
     status: 'In Progress',
     socialMedia: [
       {
         icon: faLink,
-        link: 'https://www.geekgirlcon.com/'
+        link: 'https://apps.apple.com/us/app/geekgirlcon/id6737574597'
       },
+      {
+        icon: faLink,
+        link: 'https://play.google.com/store/search?q=geekgirlcon&c=apps&utm_source=na_Med'
+      }
     ],
-    description: "Contributed to content and layout updates for the GeekGirlCon website.",
+    description: "Contributed to updates and testing for the GeekGirlCon mobile application, available on iOS and Android.",
     screenshot: page4
   },
   {
-    title: 'Next Wave Dev Static Website',
+    title: 'Next Wave Dev Website',
     company: 'Next Wave Dev',
     status: 'In Progress',
     socialMedia: [
       {
         icon: faGithub,
-        link: 'https://github.com/next-wave-dev-org/nwd-static-website'
+        link: 'https://github.com/SeattleColleges/NextWaveDev?tab=readme-ov-file'
       },
+      {
+        icon: faLink,
+        link: 'https://next-wave-dev.pages.dev/'
+      }
     ],
-    description: "Worked on the static website for Next Wave Dev, including content and layout.",
+    description: "Worked on the Next Wave Dev website, including UI improvements, content updates, and reviewing the deployed live version.",
     screenshot: page4
   },
   {
