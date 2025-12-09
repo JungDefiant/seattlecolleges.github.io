@@ -74,6 +74,66 @@ const projects = [
     description: "North Seattle College Events (NSC Events) is a student built website that allows all students to view upcoming events occurring at the college, and for administrators to add and manage event announcements through the website.",
     screenshot: page4
   },
+  {
+    title: 'GeekGirlCon Mobile App',
+    company: 'GeekGirlCon',
+    status: 'In Progress',
+    socialMedia: [
+      {
+        icon: faLink,
+        link: 'https://apps.apple.com/us/app/geekgirlcon/id6737574597'
+      },
+      {
+        icon: faLink,
+        link: 'https://play.google.com/store/search?q=geekgirlcon&c=apps&utm_source=na_Med'
+      }
+    ],
+    description: "Contributed to updates and testing for the GeekGirlCon mobile application, available on iOS and Android.",
+    screenshot: page4
+  },
+  {
+    title: 'Next Wave Dev Website',
+    company: 'Next Wave Dev',
+    status: 'In Progress',
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: 'https://github.com/SeattleColleges/NextWaveDev?tab=readme-ov-file'
+      },
+      {
+        icon: faLink,
+        link: 'https://next-wave-dev.pages.dev/'
+      }
+    ],
+    description: "Worked on the Next Wave Dev website, including UI improvements, content updates, and reviewing the deployed live version.",
+    screenshot: page4
+  },
+  {
+    title: 'Shift App (Expo)',
+    company: 'North Seattle College',
+    status: 'In Development',
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: 'https://github.com/SeattleColleges/shift-app-expo'
+      }
+    ],
+    description: "A mobile scheduling app built using Expo and React Native for practicum development.",
+    screenshot: page4
+  },
+  {
+    title: 'Licton Springs Review (Next.js)',
+    company: 'North Seattle College',
+    status: 'In Development',
+    socialMedia: [
+      {
+        icon: faGithub,
+        link: 'https://github.com/SeattleColleges/licton-springs-review-nextjs'
+      }
+    ],
+    description: "A Next.js web app created for the Licton Springs Review literary magazine.",
+    screenshot: page4
+  },
 ];
 
 const PortfolioPage = () => {
